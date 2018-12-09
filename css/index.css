@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container-fluid > div{
+    border-bottom : solid 1px gray;
+}
+
+
+
+#geoloc, #ville{
+    background-image: url(/img/people-2593377_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+        
+}
+
+
+#bloc{
+   
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:109%;
+    margin-left:-16px;
+    
+}
+
+   
+
+#icone, #icone2{
+    position: absolute; 
+    top:150px;
+    left:30%;
+}
+
+#nom_ville, #nom_ville2{
+    padding:10px 20px 10px 20px;
+    position: absolute; 
+    top:380px;
+    left:25%;
+  
+}
+
+
+#description, #description2{
+    
+    position: absolute; 
+    top:460px;
+    left:30%;
+    
+}
+
+#min, #min2{
+    
+    position: absolute; 
+    top:540px;
+    left:30%;
+   
+}
+
+#max, #max2{
+    
+    position: absolute; 
+    top:620px;
+    left:30%;
+ 
+}
+
+#inputville{
+   position: absolute; 
+    top:705px;
+    left:50px;
+}
+
+#go{
+   position: absolute; 
+    top:700px;
+    left:260px;
+}
